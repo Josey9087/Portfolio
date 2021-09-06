@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: darkgrey;
+    padding:25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header h1 {
+    display:inline-block;
+    margin-left: 0px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    font-size: 50px;
+}
+
+a{
+    color:black;
+}
+.header nav {
+    padding-top: 15px;
+    float:right
+}
+.header ul li {
+    display:inline-block;
+    font-size: 25px;
+}
+.background {
+    background-color: rgb(15, 175, 238) ;
+    padding:50px;
+}
+
+.background div {
+    float:right;
+}
+.background h2{
+    text-align: right;
+    background-color:teal;
+}
+
+.squares {
+    margin:30px;
+}
+.about{
+    display:flex
+}
+.about h2{
+    margin-right: 50px;
+    font-size: 60px;
+    color:rgb(5, 93, 134);
+}
+.about p{
+    display:block;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+}
+
+.boxheader{
+    display: inline-block;
+    font-size: 50px;
+    color:rgb(5, 93, 134);
+    margin-right:25px;
+}
+
+.bigger{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.displays{
+    flex-direction: column;
+    display:block;
+    background-color: darkgrey;
+    border: 5px solid rgb(15, 175, 238);
+    padding: 25px;
+    margin: 10px;
+    width:35%;
+}
+
+.biggestbox{
+    flex-direction: column;
+    width: 72%;
+    background-color: darkgrey;
+    border: 5px solid rgb(15, 175, 238);
+    padding: 25px;
+    margin: 10px;
+    display:inline-block
+}
+
+footer h2{
+    display: inline-block;
+}
+.Lower ul li{
+    margin:5px;
+    display:inline-block
+    
+}
+.Lower{
+    float:right;
+}
