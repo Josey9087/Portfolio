@@ -47,27 +47,27 @@ a{
     background-color: rgb(10, 208, 235);
 }
 
-.AboutME {
+.EntireAboutWork {
     margin:30px;
 }
-.AboutMeHeader {
+.AboutAsWhole {
     display:flex; 
     text-align: right;
 }
 
-.AboutMeHeader h2{
+.AboutAsWhole h2{
     margin-right: 85px;
     font-size: 50px;
     color:rgb(5, 93, 134);
 }
-.AboutMeHeader p{
+.AboutAsWhole p{
     flex-wrap: wrap;
     font-size: 20px;
     text-align: left;
     margin-left:20px;
 }
 
-.AboutMeHeader p span{
+.AboutAsWhole p span{
     display: flex;
     position:relative;
     margin-top: 20px;
@@ -82,24 +82,26 @@ a{
     color:rgb(5, 93, 134);
     font-size: 50px;
     margin-right: 100px;
+    display: inline-block;
 }
 
 .BoxesAsWhole{
-    display:flex;
+    display:inline-block;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
 }
 .SmallerBoxes{
     border:rgb(3, 240, 248) solid 10px;
-    margin:10px;
+    margin:5px;
     flex-direction: column;
     width:47%;
-    height:60%;
+    height:65%;
     background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    display:inline-block;
 }
 
 .SmallerBoxes div {
@@ -112,25 +114,27 @@ a{
 
 .BiggerBox{
     border:rgb(3, 240, 248) solid 10px;
-    margin:10px;
+    margin:5px;
     flex-direction: column;
-    height: 190%;
-    width:97%;
+    height: 250%;
+    width:95%;
     background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .BiggerBox div{
     margin-left: 0px;
-    top: 80%;
+    top: 50%;
     position: relative;
     background-color: rgb(10, 208, 235);
     float:left;
 }
 
 footer {
-    margin-top:45%;
+    margin-top:35%;
     padding:20px 20px 20px 0px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -160,4 +164,8 @@ footer h2 span{
     display:inline-block;
     font-size: 25px;
     margin-left: 30px;
+}
+
+@media screen {
+    
 }
