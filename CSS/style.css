@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    flex: 1 1 1;
 }
 
 .Header {
@@ -67,7 +66,6 @@ a{
 .AboutAsWhole {
     display:flex; 
     text-align: right;
-    margin-bottom:50px;
 }
 
 .AboutAsWhole h2{
@@ -93,7 +91,7 @@ a{
 .WorkHeader{
     color:rgb(5, 93, 134);
     font-size: 50px;
-    margin-right: 100px;
+    margin-right: 50px;
     float:left;
 }
 
@@ -101,51 +99,50 @@ a{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 .SmallerBoxes{
     border:rgb(3, 240, 248) solid 10px;
     margin:5px;
     padding:70px 00px 70px 00px;
-    width:47%;
+    width:44.5%;
     flex-direction: column;
     background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
     background-size: cover;
     background-position: center;
     max-width: 100%;
     display:inline-block;
-    margin-left:20px;
-    flex: 1 1 1;
 }
 
 .SmallerBoxes section {
     top:50px;
     position: relative;
-    background-color: rgb(10, 208, 235);
     float:left;
+    background-color: lightcyan;
+    border-radius: 10px;
 }
 
-#BiggerBox{
+.BiggerBox{
     border:rgb(3, 240, 248) solid 10px;
     margin:5px;
-    padding:275px 570px 320px 550px;
+    padding:275px 00px 275px 00px;
+    flex-direction: column;
+    width:90%;
     background-image: url("../Horiseon_Screenshot\ copy.png");
     background-size: cover;
     background-position: center;
-    display: block ;
-    float:right;
-    margin-right: px;
-    margin-left:px;
 }
 
-
-.Words{
+#Link{
     position: relative;
-    background-color: rgb(10, 208, 235);
-    align-items: center;
+    background-color: lightcyan;
     float:left;
-    bottom: 200px;;
-    left:15px;
+    top:200px;
+    display:flex;
+    font-size: 30px;
+    border-radius: 10px;
 }
+
 
 footer {
     padding:20px 20px 20px 0px;
