@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    flex: 1 1 1;
 }
 
 .Header {
@@ -17,6 +18,7 @@
     background-color: rgb(10, 208, 235);
     font-size: 60px;
     padding-left: 50px;
+    border-radius: 10px;
 }
 
 a{
@@ -33,9 +35,14 @@ a{
     margin-right: 10px;
 }
 .Caption {
-    padding:60px;
+    padding:2%;
     background-image: url("../gradient-dynamic-blue-lines-background_23-2148995756.jpeg");
     background-size: cover;
+}
+
+.Caption img{
+    position: relative;
+    background-size: contain;
 }
 
 .Caption div {
@@ -44,7 +51,14 @@ a{
 
 .Caption h2{
     text-align: right;
-    background-color: rgb(10, 208, 235);
+    background-color: rgb(232, 240, 241);
+    position: relative;
+    top:200px;
+    border-radius: 10px;
+}
+
+.Caption img{
+    border-radius: 10px;
 }
 
 .EntireAboutWork {
@@ -53,6 +67,7 @@ a{
 .AboutAsWhole {
     display:flex; 
     text-align: right;
+    margin-bottom:50px;
 }
 
 .AboutAsWhole h2{
@@ -71,73 +86,72 @@ a{
     display: flex;
     position:relative;
     margin-top: 20px;
+    margin-bottom:20px;
 }
 
-.WorkSectionAsWhole{
-    display:flex;
-    margin-top:20px;
-}
 
 .WorkHeader{
     color:rgb(5, 93, 134);
     font-size: 50px;
     margin-right: 100px;
-    display: inline-block;
+    float:left;
 }
 
 .BoxesAsWhole{
-    display:inline-block;
+    display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 }
 .SmallerBoxes{
     border:rgb(3, 240, 248) solid 10px;
     margin:5px;
-    flex-direction: column;
+    padding:70px 00px 70px 00px;
     width:47%;
-    height:65%;
+    flex-direction: column;
     background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
     background-size: cover;
     background-position: center;
     max-width: 100%;
     display:inline-block;
+    margin-left:20px;
+    flex: 1 1 1;
 }
 
-.SmallerBoxes div {
-    margin-left: 0px;
-    top:50%;
+.SmallerBoxes section {
+    top:50px;
     position: relative;
     background-color: rgb(10, 208, 235);
     float:left;
 }
 
-.BiggerBox{
+#BiggerBox{
     border:rgb(3, 240, 248) solid 10px;
     margin:5px;
-    flex-direction: column;
-    height: 250%;
-    width:95%;
-    background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
+    padding:275px 570px 320px 550px;
+    background-image: url("../Horiseon_Screenshot\ copy.png");
     background-size: cover;
     background-position: center;
-    max-width: 100%;
-    display: inline-block;
+    display: block ;
+    float:right;
+    margin-right: px;
+    margin-left:px;
 }
 
-.BiggerBox div{
-    margin-left: 0px;
-    top: 50%;
+
+.Words{
     position: relative;
     background-color: rgb(10, 208, 235);
+    align-items: center;
     float:left;
+    bottom: 200px;;
+    left:15px;
 }
 
 footer {
-    margin-top:35%;
     padding:20px 20px 20px 0px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    flex-wrap: wrap;
 }
 footer h2{
     margin-left: 30px;
