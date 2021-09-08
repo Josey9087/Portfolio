@@ -5,17 +5,17 @@
 }
 
 .Header {
-    background-color: darkgrey;
-    padding:10px 10px 10px 0px;
+    background-color: rgb(67, 69, 73);
+    padding:20px 20px 20px 0px;
     font-family: 'Courier New', Courier, monospace;
 }
 .Header h1 {
     display:inline-block;
-    margin-left: 0px;
+    margin-left:0px;
     margin-top:5px;
     margin-bottom: 5px;
-    background-color: whitesmoke;
-    font-size: 50px;
+    background-color: rgb(10, 208, 235);
+    font-size: 60px;
     padding-left: 50px;
 }
 
@@ -29,10 +29,13 @@ a{
 .Header ul li {
     display:inline-block;
     font-size: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 .Caption {
-    padding:50px;
-    background-image: url("../image_1.png");
+    padding:60px;
+    background-image: url("../gradient-dynamic-blue-lines-background_23-2148995756.jpeg");
+    background-size: cover;
 }
 
 .Caption div {
@@ -41,7 +44,7 @@ a{
 
 .Caption h2{
     text-align: right;
-    background-color:teal;
+    background-color: rgb(10, 208, 235);
 }
 
 .AboutME {
@@ -53,14 +56,21 @@ a{
 }
 
 .AboutMeHeader h2{
-    margin-right: 50px;
-    font-size: 60px;
+    margin-right: 85px;
+    font-size: 50px;
     color:rgb(5, 93, 134);
 }
 .AboutMeHeader p{
     flex-wrap: wrap;
     font-size: 20px;
     text-align: left;
+    margin-left:20px;
+}
+
+.AboutMeHeader p span{
+    display: flex;
+    position:relative;
+    margin-top: 20px;
 }
 
 .WorkSectionAsWhole{
@@ -70,62 +80,84 @@ a{
 
 .WorkHeader{
     color:rgb(5, 93, 134);
-    display: flex;
-    font-size: 60px;
-    margin-right: 50px;
-    flex-wrap: wrap;
+    font-size: 50px;
+    margin-right: 100px;
 }
 
 .BoxesAsWhole{
-    display:inline-flex;
+    display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
-    flex-basis: 100%;
-
+    justify-content: center;
+    align-items: flex-start;
 }
 .SmallerBoxes{
-    border:black solid 20px;
+    border:rgb(3, 240, 248) solid 10px;
     margin:10px;
-    padding:25px;
-    display:inline-block;
     flex-direction: column;
-    width:39%;
-    height:35%;
+    width:47%;
+    height:60%;
+    background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 
+.SmallerBoxes div {
+    margin-left: 0px;
+    top:50%;
+    position: relative;
+    background-color: rgb(10, 208, 235);
+    float:left;
 }
 
 .BiggerBox{
-    border:black solid 20px;
+    border:rgb(3, 240, 248) solid 10px;
     margin:10px;
-    padding:25px;
-    display:inline-block;
     flex-direction: column;
-    height: 70%;
-    width:80%;
+    height: 190%;
+    width:97%;
+    background-image: url("../coming-soon-message-illuminated-with-light-projector_1284-3622.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.BiggerBox div{
+    margin-left: 0px;
+    top: 80%;
+    position: relative;
+    background-color: rgb(10, 208, 235);
+    float:left;
 }
 
 footer {
-    margin-top:300px;
-    background-color: darkgrey;
-    padding:25px;
+    margin-top:45%;
+    padding:20px 20px 20px 0px;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 footer h2{
-    display:inline-block;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-top:5px;
     margin-bottom: 5px;
-    background-color: whitesmoke;
-    font-size: 50px;
+    font-size: 40px;
+}
+
+footer h2 span{
+    position: relative;
+    display: block;
+    text-align: right;
 }
 
 .Lower{
     padding-top: 15px;
-    float:right
+    margin-left: 10%;
+    display:flex;
+    position: relative;
+    align-items: center;
 }
 
 .Lower ul li{
     display:inline-block;
     font-size: 25px;
+    margin-left: 30px;
 }
