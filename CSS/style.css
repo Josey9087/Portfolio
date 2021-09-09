@@ -157,6 +157,8 @@ a{
     border-radius: 10px;
 }
 
+/* This decides the size, border, padding, and width of the bigger box in the page. A background image is displayed in the 
+    padding area. The image is positiond as well as made to cover the entire background without repeating. */
 .BiggerBox{
     border:rgb(3, 240, 248) solid 10px;
     margin:5px;
@@ -168,6 +170,9 @@ a{
     background-position: center;
 }
 
+/* This is used to changed the position of the link text associted with the bigger boxe's linked background.
+    It is given a background-color as well as moved near the bottom as well as floated to the left.
+    The font size is enlargened and the edges are smothed out. */
 #Link{
     position: relative;
     background-color: lightcyan;
@@ -177,13 +182,16 @@ a{
     border-radius: 10px;
 }
 
-
+/* This is used to give the footer padding around to enlargen it's background area. It's font is changed and it is changed
+    into a flex in order to display the words "Contact" and "Me" above each other.  */
 footer {
     padding:20px 20px 20px 0px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-wrap: wrap;
 }
+
+/* This moves the words "Contact" and "Me" using margin and increases it's font size. */
 footer h2{
     margin-left: 30px;
     margin-top:5px;
@@ -191,20 +199,25 @@ footer h2{
     font-size: 40px;
 }
 
+/* This is making the word "ME" in the h2 display in a differnt line as the word "Contact"
+    as well as make the word wrap to the right side.  */
 footer h2 span{
-    position: relative;
     display: block;
     text-align: right;
 }
 
+/* This is displaying the the contact information as flex which allows it to center itself despite
+    the block being used above. It is moved using margin and made to display in the center of the footer.   */
 .Lower{
-    padding-top: 15px;
+    margin-top: 15px;
     margin-left: 10%;
     display:flex;
-    position: relative;
     align-items: center;
 }
 
+
+/* This section is seperating the individual information in the footer nav area. It is displayed next to each other.
+    The font is enlarged and the are spaced out from eaxch other using margin-left. */
 .Lower ul li{
     display:inline-block;
     font-size: 25px;
