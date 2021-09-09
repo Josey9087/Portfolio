@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-
+<!-- The head element contaains information necessary for the page to deploy but can't be seen on the web page.
+    the CSS is linked in this section. -->
 <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./CSS/style.css">
         <title>Jose Yanez's Portfolio</title>
     </head>
+    <!-- Below is the body this is everything that can be seen in on the page. -->
 <body>
+    <!-- Below is the header section, this is displayed at the top of the page. In it is displayed my name and the navigation bar.
+        The navigation bar is linked to the portions of the page that display the corresponding information. -->
     <header class=Header>
         <h1>Jose Yanez</h1>
         <nav>
@@ -26,13 +30,20 @@
             </ul>
         </nav>
     </header>
+    <!-- This section with the "Caption" class is the portion between the main information and the header.
+        Below is the link to the picture of my avatar as well as it's alt description and it's sizing.
+        The h2 is the caption used next to it. -->
     <section class="Caption" alt="Caption Image">
-        <img src="male-avatar-profile-picture-vector-10211761 2.jpeg" alt="Profile Avatar" width="250" height="250">
+        <img src="./Images/male-avatar-profile-picture-vector-10211761 2.jpeg" alt="Profile Avatar" width="250" height="250">
         <div>
             <h2>This website was coded using html and css!</h2>
         </div>
     </section>
+    <!-- Below is the main section displaying the "About me" and "Work" portion of the web page.-->
     <main class="EntireAboutWork">
+        <!-- The article element displays the informations about me written in the website.
+        The span is used to sperate the words in the paragraph using CSS.
+        It has an id in order to link it with the navigation bar above. -->
         <article id="AboutME" class="AboutAsWhole">
             <h2>
                 About me
@@ -46,13 +57,22 @@
                     <span>Please feel free to link any of the links in the Contact section of the page to reach out to me with any questions.</span>
                 </p>
         </article>
+        <!-- Below is the "Work" section of the page. It displays boxes with my previous and future work.
+            The "h2" tag is displaying the header of the section. It has an id in order to link it with the navigation bar above.
+            The "a" tag is being used to create a link to my deployed first homework. In the a tag there is the link, the "alt"
+            description, the "target" which allows the page to deploy in a new webpage. The span is used to style the text of the link,
+            this is followed by a "br" tag which is used to break the text inside while still styling that portion. -->
     <section id="Work">
         <h2 class="WorkHeader">
             Work
         </h2>
         <section class="BoxesAsWhole">
-            <a href="https://josey9087.github.io/Horiseon/" target="_blank" class="BiggerBox"><span id="Link">First Homework <br>Click the Picture!</br></span></a>
-            <section class="SmallerBoxes">
+            <a href="https://josey9087.github.io/Horiseon/" target="_blank" class="BiggerBox" alt="First Homework Screenshot">
+                <span id="Link">First Homework <br>Click the Picture!</br></span></a>
+            <!-- Below are sections which each correspond to boxes that are being made in order to display future work.
+                Each of the boxes have an image displayed in the background using CSS since they have not been linked to anything yet.
+                They have each been given an "alt" tag for description. -->
+            <section class="SmallerBoxes" alt="Coming Soon Image">
                 <section>
                     <h2>
                         Second Work
@@ -62,7 +82,7 @@
                     </p>
                 </section>
             </section>
-            <section class="SmallerBoxes">
+            <section class="SmallerBoxes" alt="Coming Soon Image">
                 <section>
                     <h2>
                         Third Work
@@ -72,7 +92,7 @@
                     </p>
                 </section>
             </section>
-            <section class="SmallerBoxes">
+            <section class="SmallerBoxes" alt="Coming Soon Image">
                 <section>
                     <h2>
                         Fourth Work
@@ -82,7 +102,7 @@
                     </p>
                 </section>
             </section>
-            <section class="SmallerBoxes">
+            <section class="SmallerBoxes" alt="Coming Soon Image">
                 <section>
                     <h2>
                         Fifth Work
@@ -95,6 +115,11 @@
         </section>
     </section>
     </main>
+    <!-- Below is the footer of the page displayed below evrything else.
+        It has an id in order to link it with the navigation bar above.
+        It functions like the navigation bar in the header except the links are only for information
+        as well as links to other pages concerning contacting me and viewing my work on Github,
+        they do not lead to part of the page.-->
     <footer>
         <h2 id="Contact">
             Contact <span>me</span>
