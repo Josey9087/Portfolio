@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+/* This code changes the background color of the page. */
+.WholePage{
+    background-color: rgb(221, 217, 214);
+}
 /* The header is being padded in order to give it a bigger space to take up when changing its backgrodun color
     all the font wihtin the header is being changed to match. */
 .Header {
@@ -22,9 +26,10 @@
     margin-left:0px;
     margin-top:5px;
     margin-bottom: 5px;
-    background-color: rgb(10, 208, 235);
+    background-color: rgb(35, 97, 155);
     font-size: 60px;
     padding-left: 50px;
+    border-radius: 10px;
 }
 
 /* The a tags are being changed to the color black. */
@@ -49,7 +54,7 @@ a{
 
 /* The color of the links in the header navigation section is being changed. */
 .Header ul li a{
-    color:rgb(10, 208, 235);
+    color:rgb(35, 97, 155);
 }
 
 
@@ -57,7 +62,7 @@ a{
     padding is given to enlarge the area the image takes up as well as making the image take up the entire space without repeating. */
 .Caption {
     padding:2%;
-    background-image: url("../Images/gradient-dynamic-blue-lines-background_23-2148995756.jpeg");
+    background-image: url("../Images/Background.jpeg");
     background-size: cover;
 }
 
@@ -74,10 +79,11 @@ a{
 
 /* This section is used to give the caption inside the "Caption" class a background color as well as make it's position relative.
     This ensures the "top" is moved away from the border of the section. */
-.Caption h2{
-    background-color: rgb(10, 208, 235);
+.Caption div{
+    background-color: rgb(221, 217, 214);
     position: relative;
     top:200px;
+    border-radius: 5px;
 }
 
 /* This give the entire "About Me" and "Work" section a margin to space it out. */
@@ -138,7 +144,7 @@ a{
 /* This decides the size, border, padding, and width of the smaller boxes in the page. A background image is displayed in the 
     padding area. The image is positiond as well as made to cover the entire background without repeating. */
 .SmallerBoxes{
-    border:rgb(3, 240, 248) solid 10px;
+    border:rgb(5, 125, 236) solid 10px;
     margin:5px;
     padding:70px 00px 70px 00px;
     width:44.5%;
@@ -154,18 +160,34 @@ a{
     top:50px;
     position: relative;
     float:left;
-    background-color: rgb(10, 208, 235);
+    background-color: rgb(221, 217, 214);
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* This code sets the background image of the first smaller box in the work section*/
+#smallbox1{
+    background-image: url("../Images/WorkDayScheduler.png");
+    background-size: cover;
+    background-position: center
+
+}
+
+/* This code sets the background image of the second smaller box in the work section*/
+#smallbox2{
+    background-image: url("../Images/Password_Generator.png");
+    background-size: cover;
+    background-position: center
 }
 
 /* This decides the size, border, padding, and width of the bigger box in the page. A background image is displayed in the 
     padding area. The image is positiond as well as made to cover the entire background without repeating. */
 .BiggerBox{
-    border:rgb(3, 240, 248) solid 10px;
+    border:rgb(35, 97, 155) solid 10px;
     margin:5px;
     padding:275px 00px 275px 00px;
     flex-direction: column;
     width:90%;
-    background-image:url("../Images/Horiseon_Screenshot\ copy.png"); 
+    background-image:url("../Images/SoundBites.png"); 
     background-size: cover;
     background-position: center;
 }
@@ -175,10 +197,11 @@ a{
     The font size is enlargened. */
 #Link{
     position: relative;
-    background-color: rgb(10, 208, 235);
+    background-color: rgb(221, 217, 214);
     float:left;
     top:200px;
     font-size: 30px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 /* This is used to give the footer padding around to enlargen it's background area. It's font is changed and it is changed

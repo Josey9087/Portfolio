@@ -2,7 +2,9 @@
 
 Website: Jose Yanez's Portfolio
 
-This is a portfolio project I started from scratch for the University of Denver Coding Bootcamp.
+This is a portfolio project I started from scratch for the University of Denver Coding Bootcamp. It now serves as my main portfolio in showcasing my skills as a web developer.
+
+The page uses HTML and CSS.
 
 My Assignment was as follows:
 AS AN employer
@@ -26,10 +28,9 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
-
-
 Explainations for the code are commented in the code.
 
+This is a link to the deployed web page: https://josey9087.github.io/Portfolio/
 
 Below is an screenshot that shows the image's deployed appearance.
 
